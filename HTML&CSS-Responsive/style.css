@@ -71,3 +71,44 @@ footer {
   height: 50px;
   background-color: #aaaaaa;
 }
+
+/* レスポンシブ対応
+-----------------------------*/
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .container {
+    background-color: #eeeeee;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 3%;
+  }
+
+  .center {
+    background-color: #eeeeee;
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .font-skill,
+  .font-space,
+  .font-career {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  article {
+    text-align: justify;
+  }
+
+  footer {
+    width: 100%;
+  }
+}

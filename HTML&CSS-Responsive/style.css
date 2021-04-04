@@ -37,21 +37,25 @@ main {
 
 .font-skill {
   background-image: url(img/flow01.png);
-  background-size: 100% 100%;
+  background-size: 100% 200%;
+  background-position: bottom;
+  background-repeat: no-repeat;
   height: 150px;
   margin: 10px 10px 0 10px;
 }
 
 .font-space {
   background-image: url(img/flow02.png);
-  background-size: 100% 100%;
+  background-size: 100% 180%;
+  background-position: bottom;
   height: 150px;
   margin: 10px 10px 0 10px;
 }
 
 .font-career {
   background-image: url(img/flow03.png);
-  background-size: 100% 100%;
+  background-size: 100% 190%;
+  background-position: bottom;
   height: 150px;
   margin: 10px 10px 0 10px;
 }
